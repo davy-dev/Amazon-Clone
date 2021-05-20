@@ -1,0 +1,54 @@
+.checkoutProduct {
+    display: grid;
+    grid-template-columns: 200px 1fr 100px;
+    margin: 20px;
+
+    border-bottom: 1px solid lightgray;
+}
+
+
+
+.checkoutProduct-image {
+    grid-area: 1/1/2/2;
+    flex: 0.2;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.checkoutProduct-title {
+    grid-area: 1/2/2/3;
+    margin-left: 20px;
+    color: #007185 ;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+    
+}
+.checkoutProduct-title:hover {
+   
+    color: #D7825E;
+ 
+}
+
+
+.checkoutProduct-price {
+    grid-area: 1/3/2/4;
+    margin-left: auto;
+}
+
+.checkoutProduct-deleteItem{
+    grid-area: 1/2/2/3;
+    position: relative;
+    top:50px;
+    background: none;
+    color: #007185 ;
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-left: 1px solid rgb(212, 221, 230);
+    border-right: 1px solid rgb(212, 221, 230);
+}
+.checkoutProduct-deleteItem:hover{
+    text-decoration: underline;
+}
